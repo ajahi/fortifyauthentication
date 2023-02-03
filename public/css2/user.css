@@ -1,0 +1,136 @@
+
+.homepage {
+    background-color: #ffff;
+    min-height: auto;
+}
+
+#hellladmin {
+    text-decoration: none;
+}
+
+#admin_card {
+    position: relative;
+    top: 100px;
+}
+
+.signup-form label {
+    font-weight: 300;
+    opacity: 0.9;
+}
+#permanent_add {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: rgb(24, 23, 23);
+}
+
+.title-login-form p {
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
+#btn-login {
+    background-color: #375db7;
+    color: #FAFAFA;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+#btn-register {
+    background-color: #375db7;
+    color: #FAFAFA;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 224px;
+}
+
+#dont_haveacc {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 13px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#have_account {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.singupspan {
+    color: #14388C;
+    font-weight: 600;
+}
+
+
+.title-info-tmp p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #BB3F31;
+}
+
+.important-notice {
+    height: 100vh;
+    overflow: scroll;
+}
+
+.side-login-img img {
+
+    height: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
+/* media query */
+@media only screen and (max-width: 600px) {
+
+.title-info-tmp p {
+        font-weight: 500;
+        font-size: 1.1rem;
+        color: #BB3F31;
+    }
+}
+
+
+/* Air ipad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    .signup-form .form-group label {
+        font-size: 0.7rem;
+    }
+
+    .signup-form .form-group input {
+        font-size: 0.6rem;
+    }
+
+    .signup-form .form-group select {
+        font-size: 0.6rem;
+    }
+
+    .signup-form .form-group option {
+        font-size: 0.6rem;
+    }
+
+    .genders {
+        font-size: 0.6rem;
+    }
+
+}
+
+.login_logo img {
+    object-fit: contain;
+    height: 30%;
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: none !important;
+}
