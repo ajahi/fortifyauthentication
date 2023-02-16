@@ -17,7 +17,10 @@ use App\Http\Controllers\Controller;
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/home',[Controller::class,'index'])->name('home');
+
+
 Route::post('/test',function(Request $request){
     return $request->all();
 })->name('test');

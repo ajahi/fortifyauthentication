@@ -33,7 +33,7 @@
                                             <tbody>
 
                                             <tr>
-                                                <td>{{$loop->iteration}}</td>
+                                                <td></td>
                                                 <td>{{$user->name}}</td>
                                                 <td>{{$user->contact_number}}</td>
                                                 <td>{{$user->status}}</td>
